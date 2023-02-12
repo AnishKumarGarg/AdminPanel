@@ -11,6 +11,7 @@ import Startstream from "./components/Startstream";
 import Revenue from "./components/Revenue";
 import LoginPage from "./components/login";
 import Signup from "./components/Signup";
+import Notification from "./components/Notification";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<LoginPage />} />
           <Route path="/Signup" element={<Signup/>} />
+          <Route path="/Notification" element={<Notification/>} />
 
           <Route path="*" element={
             <>
